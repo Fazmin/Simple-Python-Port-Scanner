@@ -1,3 +1,8 @@
+# Simple Python port scanner. 
+# Change port as needed
+# run - pyhon simple_port_scanner.py
+
+
 import sys
 import socket
 import subprocess
