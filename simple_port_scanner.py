@@ -24,6 +24,8 @@ t1 = datetime.now()
 
 # Basic error handling
 
+#Defaut ports set to 1-995
+
 try:
     for port in range(1,995):  
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -49,4 +51,5 @@ t2 = datetime.now()
 
 total =  t2 - t1
 
+#Output
 print 'Total Scan time: ', total
